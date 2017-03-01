@@ -19,7 +19,7 @@ RocketChat.callbacks.add('afterSaveMessage', function(message, room) {
 		return message;
 	}
 	// skips this callback if the message was edited
-	if (message.editedAt) {
+	if (!message || message.editedAt) {
 		return message;
 	}
 
