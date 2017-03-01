@@ -131,24 +131,25 @@ Meteor.startup(function() {
 
 	RocketChat.settings.add('Livechat_Knowledge_Enabled', false, {
 		type: 'boolean',
-		group: 'Livechat',
-		section: 'Knowledge_Base',
+		group: 'Reisebuddy',
+		section: 'Knowledge Base',
+
 		public: true,
 		i18nLabel: 'Enabled'
 	});
 
 	RocketChat.settings.add('Livechat_Knowledge_Apiai_Key', '', {
 		type: 'string',
-		group: 'Livechat',
-		section: 'Knowledge_Base',
+		group: 'Reisebuddy',
+		section: 'Knowledge Base',
 		public: true,
 		i18nLabel: 'Apiai_Key'
 	});
 
 	RocketChat.settings.add('Livechat_Knowledge_Apiai_Language', 'en', {
 		type: 'string',
-		group: 'Livechat',
-		section: 'Knowledge_Base',
+		group: 'Reisebuddy',
+		section: 'Knowledge Base',
 		public: true,
 		i18nLabel: 'Apiai_Language'
 	});
